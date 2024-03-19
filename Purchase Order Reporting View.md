@@ -42,11 +42,3 @@ The query logic for this view is based on a join between the PurchaseDocuments, 
 | XK01 | Create Vendor |
 | XK02 | Change Vendor |
 | XK03 | Display Vendor |
-
-## Considerations
-### Data Currency
-The data in this view is stored in the currency of the purchase order. When comparing data from different purchase orders, it is important to consider the exchange rates at the time of the order.
-### Data Accuracy
-The data in this view is only as accurate as the data in the underlying SAP tables. It is important to ensure that the SAP tables are updated regularly and that the data is validated before using it for analysis.
-### Data Volume
-This view can contain a large amount of data, especially if it includes data from a long period of time. It is important to consider the performance implications of using this view in reports and dashboards.
